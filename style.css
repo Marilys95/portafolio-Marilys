@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color : rgb(247, 239, 243) ;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+h2 {
+    color: aqua;
+}
+
+/* Estilos para el contenedor de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    
+}
+
+
+
+/* Estilos para el logo o nombre */
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilos para los enlaces  principal */
+.navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+/* Estilo para el correo de contacto */
+.navbar .contact {
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+     justify-content: space-between;   
+    
+}
+
+.container p{
+    flex: auto;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+#sobre-mi {
+    text-align: center;
+    margin: 20px;
+}
+
+#sobre-mi-titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sobre-mi {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+    justify-content: space-between;  
+}
+
+#sobre-mi img {
+    width: 40px; /* Ajusta el tamaño de la imagen */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+  
+#sobre-mi img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    cursor: pointer; /* Cambia el cursor a pointer */
+}
+  
+#sobre-mi button {
+    background-color: #24292e; /* Color de fondo similar a GitHub */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+#sobre-mi button:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el ratón */
+    cursor: pointer
+}
+
+#objetivos {
+    text-align: center;
+    margin: 20px;
+}
+
+#objetivos-titulos {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.objetivos {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+     justify-content: space-between;  
+}
+
+#pasatiempos {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+    
+
+/* Estilo general de la tarjeta */
+.card {
+    position: relative;
+    text-align: center;
+    width: 150px;
+}
+
+/* Ocultar texto por defecto */
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Mostrar el texto cuando el checkbox está marcado */
+.toggle:checked + label + .hidden-text {
+    display: block;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.grid img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.grid img:hover {
+    transform: scale(1.1);
+}
+
+#habilidades {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estructura de la cuadrícula de habilidades */
+.grid-habilidades {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilo de cada tarjeta de habilidad */
+.card-habilidades {
+    position: relative;
+    text-align: center;
+    width: 150px;
+}
+
+/* Oculta los checkboxes para una apariencia limpia */
+.toggle {
+    display: none;
+}
+
+/* Imagen en cada tarjeta de habilidad */
+.card-habilidades img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto de zoom al pasar sobre la imagen */
+.card-habilidades img:hover {
+    transform: scale(1.1);
+}
+
+/* Oculta el texto por defecto */
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Muestra el texto cuando el checkbox está marcado */
+.toggle:checked + label + .hidden-text {
+    display: block;
+}
+
+
+#experiencia {
+    text-align: center;
+    margin: 20px;
+}
+
+#experiencia-titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.experiencia {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+     justify-content: space-between;  
+}
+
+#formacion {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-formacion {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-formacion {
+    position: relative;
+    text-align: center;
+    width: 150px;
+}
+
+.toggle {
+    display: none;
+}
+
+.card-formacion img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card-formacion img:hover {
+    transform: scale(1.1);
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.toggle:checked + label + .hidden-text {
+    display: block;
+}
+
+
+/* Estilo general de la sección de contacto */
+#contactos {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#contactos h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contactos p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007acc; /* Color de borde al enfocar */
+    outline: none;
+}
+
+/* Estilo del botón de envío */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007acc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+/* Estilos para el input del email */
+input[type="email"] {
+    font-style: italic;
+}
+
+/* Estilo del input de número de celular */
+input[type="tel"]::placeholder {
+    color: #aaa;
+}
+
+/* Asegura que el formulario sea responsive */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 10px;
+    }
+}
+

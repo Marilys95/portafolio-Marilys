@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Marilys Zarzuela</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://forms.gle/quUhbFsGCFgLf6jP9">
+   
+</head>
+<body>
+
+    <!-- Encabezado principal -->
+    <header class="navbar">
+        
+       <div class="logo">Marilys Zarzuela</div>
+
+       
+
+        <!-- Navegación principal -->
+        <nav aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#pasatiempos">Pasatiempos</a>
+        <a href="#habilidades">Habilidades Técnicas</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Formación</a>
+        <a href="#contactos">Contactos</a>
+       </nav>
+     
+                    
+                
+    </header>
+
+    <main>
+        <div class="container">
+          <p>Hola, soy Marilys, estudiante de la especialidad de Front-End en Alura Latam. Actualmente, estoy en un proceso de cambio de carrera, trabajando para consolidar mis habilidades en desarrollo web.</p>
+          <img src="imagenes/yo.jpg" alt="Fotografía de Marilys Zarzuela vestida de verde" aria-label="Fotografía de Marilys Zarzuela">
+                
+        </div>
+      
+       <!-- Sección sobre mí -->
+        <main role="main">
+        <section id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+          <h2 id="sobre-mi-titulo">Sobre mí</h2>
+          <p>¡Hola! Soy <strong>Marilys Zarzuela</strong> , apasionada de la informática y de todo lo relacionado con las computadoras.
+            Me encanta la idea de transformar ideas en productos digitales que no solo sean funcionales, sino también atractivos para los usuarios. Aunque tengo poca experiencia en el campo, estoy comprometida en aprender y desarrollar mis habilidades en HTML, CSS, JavaScript y otras tecnologías que impulsan la web
+          </p>
+
+          <a href="https://github.com/Marilys95">
+            <img src="imagenes/github.png" alt="Imagen de GitHub">
+          </a>
+          
+          <a href="https://www.instagram.com/marilyszarzuela1/">
+            <img src="imagenes/instagram.png" alt="Imagen de Github">
+          </a>
+
+          <a href="https://www.linkedin.com/in/marilys-zarzuela-ab3b98149/">
+            <img src="imagenes/linkedin.png" alt="Imagen de Linkedin">
+          </a>
+          
+        </section>
+
+        <!-- Sección objetivos -->
+        <section id="objetivos" aria-labelledby="objetivos-titulo">
+            <h2 id="objetivos-titulo">Objetivos</h2>
+            <p>Seguir desarrollándome en el área del front-end, adquiriendo nuevas habilidades y trabajando en proyectos que me permitan crecer tanto personal como profesional.</p>
+        </section>
+
+       <!-- Sección de Pasatiempos -->
+       <section id="pasatiempos" aria-labelledby="pasatiempos-titulo">
+           <h2 id="pasatiempos-titulo">Pasatiempos</h2>
+
+            <div class="grid">
+
+              <!-- Tarjeta de Pasatiempo: Familia -->
+                <div class="card">
+                 <input type="checkbox" id="familia-toggle" class="toggle">
+                    <label for="familia-toggle">
+                      <img src="imagenes/familia.png" alt="Imagen de familia en blanco y negro">
+                    </label>
+                 <p class="hidden-text">Disfruto estar en familia</p>
+                </div>
+
+               <!-- Tarjeta de Pasatiempo: Leer la Biblia -->
+               <div class="card">
+                  <input type="checkbox" id="biblia-toggle" class="toggle">
+                    <label for="biblia-toggle">
+                       <img src="imagenes/biblia.png" alt="Icono de la Biblia">
+                    </label>
+                  <p class="hidden-text">Leer la Biblia y aprender de Jehová</p>
+                </div>
+
+                <!-- Tarjeta de Pasatiempo: Ver una Película -->
+                <div class="card">
+                  <input type="checkbox" id="pelicula-toggle" class="toggle">
+                    <label for="pelicula-toggle">
+                      <img src="imagenes/pelicula.png" alt="Icono de reproductor de película">
+                    </label>
+                 <p class="hidden-text">Me gusta ver una buena película</p>
+                </div>
+           </div>    
+
+        
+        </section>
+
+
+            
+
+       <!-- Sección Habilidades Técnicas -->
+      <section id="habilidades" aria-labelledby="habilidades-titulo">
+         <h2 id="habilidades-titulo">Habilidades Técnicas</h2>
+
+            <div class="grid-habilidades">
+
+                <!-- Habilidad: HTML5 -->
+                <div class="card-habilidades">
+                  <input type="checkbox" id="html5-toggle" class="toggle">
+                    <label for="html5-toggle">
+                      <img src="imagenes/html-5 (1).png" alt="Imagen de HTML5">
+                    </label>
+                  <p class="hidden-text">Estructuración básica de sitios web semánticos y accesibles</p>
+                </div>
+
+                <!-- Habilidad: CSS3 -->
+                <div class="card-habilidades">
+                  <input type="checkbox" id="css3-toggle" class="toggle">
+                    <label for="css3-toggle">
+                      <img src="imagenes/css3.png" alt="Imagen de CSS3">
+                    </label>
+                  <p class="hidden-text">Creación de diseño responsivo con Flexbox</p>
+                </div>
+
+                <!-- Habilidad: GitHub -->
+                <div class="card-habilidades">
+                  <input type="checkbox" id="github-toggle" class="toggle">
+                    <label for="github-toggle">
+                      <img src="imagenes/github.png" alt="Imagen de GitHub">
+                    </label>
+                  <p class="hidden-text">Control de versiones y trabajo colaborativo en proyectos</p>
+                </div>
+
+                <!-- Habilidad: JavaScript -->
+                <div class="card-habilidades">
+                  <input type="checkbox" id="javascript-toggle" class="toggle">
+                    <label for="javascript-toggle">
+                      <img src="imagenes/js.png" alt="Imagen de JavaScript">
+                    </label>
+                  <p class="hidden-text">Conocimientos básicos para añadir interactividad a las páginas web</p>
+                </div>
+
+                <!-- Habilidad: Figma -->
+                <div class="card-habilidades">
+                  <input type="checkbox" id="figma-toggle" class="toggle">
+                    <label for="figma-toggle">
+                       <img src="imagenes/figma.png" alt="Imagen de Figma">
+                    </label>
+                  <p class="hidden-text">Diseño y prototipado de interfaces de usuario</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección experiencia -->
+        <section id="experiencia" aria-labelledby="experiencia-titulo">
+            <h2 id="experiencia-titulo">Experiencia</h2>
+            <p>Sin experiencia aún.</p>
+        </section>
+
+        <!-- Sección formación -->
+        <section id="formacion" aria-labelledby="formacion-titulo">
+          <h2 id="formacion-titulo">Formación</h2>
+        
+          <div class="grid-formacion">
+            <div class="card-formacion">
+              <input type="checkbox" id="UASD-toggle" class="toggle">
+              <label for="UASD-toggle">
+                <img src="imagenes/UASD.png" alt="Imagen de UASD">
+              </label>
+              <p class="hidden-text">Licda. En Enfermería</p>
+            </div> 
+        
+            <div class="card-formacion">
+              <input type="checkbox" id="alura-toggle" class="toggle">
+              <label for="alura-toggle">
+                <img src="imagenes/alura.png" alt="Imagen de Alura">
+              </label>
+              <p class="hidden-text">Estudiante Front-End</p>
+            </div>
+          </div>
+        </section>
+        
+
+       <!-- Sección contactos -->
+        <section id="contactos" aria-labelledby="contactos-titulo">
+            <h2 id="contactos-titulo">Contactos</h2>
+            <p>Si tienes alguna pregunta o deseas ponerte en contacto, completa el formulario a continuación.</p>
+            <form action="enviar_formulario.php" method="post">
+                
+        
+               <div class="form-group">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                   <label for="e-mail">E-mail</label>
+                   <input type="email" id="e-mail" name="e-mail" required list="email-options" placeholder="ejemplo@dominio.com">
+            
+                    
+
+               <div class="form-group">
+                <label for="numero-celular">Número de Celular</label>
+                   <input type="tel" id="numero-celular" name="numero-celular" required 
+                    pattern="[0-9]{10}" inputmode="numeric" placeholder="Solo números">
+                </div> 
+
+                <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+               <button type="submit">Enviar</button>
+            
+
+                <script>
+                   // Permitir solo números en el campo de número de celular
+                   document.getElementById('numero-celular').addEventListener('input', function (e) {
+                    e.target.value = e.target.value.replace(/[^0-9]/g, ''); // Remover caracteres que no sean números
+                   });
+                </script>
+       
+
+    
+                
+            </form>
+           
+
+            
+            
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer role="contentinfo">
+        <a href="c:\Users\Marilys\Desktop\Raylibel.pdf">
+            <button>cv Marilys zarzuela morillo.</button>
+        </a>
+    </footer>
+    
+</body>
+</html>form
